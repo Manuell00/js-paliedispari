@@ -39,17 +39,14 @@ function victoryName() {
     play(utenteNumero, randomNumber())
 
     if ((utentePariDispari === "pari") && (pari == true)) {
-        console.log(pari,dispari)
         return `Hai vinto perchè ${play(utenteNumero, randomNumber())}`
     }
 
     else if ((utentePariDispari === "dispari") && (dispari == true)) {
-        console.log(pari,dispari)
         return `Hai vinto perchè ${play(utenteNumero, randomNumber())}`
     }
 
     else {
-        console.log(pari,dispari)
         return `Hai perso perchè ${play(utenteNumero, randomNumber())}`
     }
 }

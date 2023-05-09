@@ -27,4 +27,5 @@ function palindrome(parola) {
     return true
 }
 
+
 console.log(palindrome(parolaUtente))
