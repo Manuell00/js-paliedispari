@@ -20,13 +20,11 @@ function palindrome(parola) {
     for (let i = 0; i < lunghezza / 2; i++) {
         // Se non è così restituisco false
        if (parola[i] !== (parola[lunghezza -1 -i])) {
-        return (console.log(false))
+        return false
        }
     }
     // Se è verificato restituisco true
-    return (console.log(true))
-
-    
+    return true
 }
 
-palindrome(parolaUtente)
+console.log(palindrome(parolaUtente))
